@@ -1,10 +1,10 @@
 # [Risk Analysis 2020-2025] The "Mag 7" & TSLA vs AVGO
 
+Link **[Google Colab](https://colab.research.google.com/github/independent-quant/-Risk-Analysis-2020-2025-The-Mag-7-TSLA-vs-AVGO/blob/main/mag7_analysis.ipynb)**
+
 ## Abstract
 
 This repository contains a quantitative risk analysis of the "Magnificent 7" stocks (AAPL, MSFT, GOOGL, AMZN, NVDA, META, TSLA). Specifically, it examines the idiosyncratic risk of **Tesla (TSLA)** and tests a hypothesis of replacing it with **Broadcom (AVGO)**.
-
-**[Google Colab](https://colab.research.google.com/github/independent-quant/-Risk-Analysis-2020-2025-The-Mag-7-TSLA-vs-AVGO/blob/main/mag7_analysis.ipynb)**
 
 ## Key Findings
 
