@@ -13,20 +13,28 @@ Using a **126-day rolling correlation** against the S&P 500 (SPY), the analysis 
 *   **The Cluster:** Most Mag 7 components maintain a correlation > 0.6.
 *   **The Outlier:** TSLA frequently decouples, with correlation dropping below 0.3, exhibiting behavior distinct from the "Big Tech" beta.
 
+![Rolling Correlation](images/graph2_rolling_corr.png)
+
 ### 2. Risk Contribution
 In an Equal-Weight portfolio, risk is concentrated:
 *   **TSLA** contributes **>20%** of the total specific risk of the basket.
 *   **AVGO**, by comparison, aligns closer to the volatility profile of the broader group.
+
+![Risk Contribution](images/graph3_risk_contribution.png)
 
 ### 3. Backtest Results (The "Swap")
 A historical backtest (2020-2025) comparing the Classic Mag 7 against a Modified Basket (Ex-TSLA, +AVGO) yielded:
 *   **Sharpe Ratio:** Improved from **0.77** to **0.79**.
 *   **Max Drawdown:** Reduced from **-56.3%** to **-51.1%**.
 
+![Backtest Comparison](images/graph4_backtest.png)
+
 ### 4. Minimum Volatility Optimization
 A Mean-Variance Optimization targetting **Minimum Volatility** (with L2 Regularization) allocated:
 *   **0%** to TSLA (rejected due to volatility).
 *   **Significant allocation** to MSFT, AAPL, and AVGO (favored for stability).
+
+![Minimum Volatilty Allocation](images/graph5_min_vol.png)
 
 ---
 
